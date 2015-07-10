@@ -1,0 +1,70 @@
+body {
+  font-family: "Times New Roman", Georgia, Serif;;
+  margin: 0 auto;
+  width: 600px;
+  background: pink;
+}
+
+div {
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 300px;
+
+  /*max-width: 100%;*/
+}
+
+img {
+
+}
+.first-course {
+  background-image: url("http://www.thecheesecakefactory.com/assets/images/Menu-Import/CCF_AhiCarpaccio.jpg");
+  /*style="width: 300px; height: 200"*/
+}
+
+.second-course {
+  background-image: url("http://media-cache-ec0.pinimg.com/736x/e0/06/28/e006285b4445c815e2418a229e6eaeea.jpg");
+
+}
+
+.third-course {
+  background-image: url("http://www.thecheesecakefactory.com/assets/images/Menu-Import/CCF_MisoSalmon.jpg")
+
+}
+
+.dessert {
+  background-image: url("http://www.thecheesecakefactory.com/assets/images/Menu-Import/CCF_ChocolateMousseCheesecake.jpg")
+
+}
+
+p {
+  /*color: rgba(255,255,255,1);*/
+}
+
+nav ul{
+  Text-align:center;
+  List-style-type: none;
+  Background-color:pink;
+  Padding: 20px
+}
+nav ul li {
+display: inline;
+padding: 10px 20px;
+}
+a{
+color: white;
+padding: 20px
+}
+a:hover{
+background-color: black;
+}
+
+textarea {
+  width: 600px;
+  height: 100px;
+}
+
+@media(max-width: 700px){
+  .first-course, .second-course, .third-course, .dessert {
+    width: 50%;
+  }
+}
