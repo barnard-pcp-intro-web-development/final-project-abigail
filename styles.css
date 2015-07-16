@@ -1,38 +1,75 @@
+html {  
+  background-image: url("http://i.huffpost.com/gen/831639/images/o-TAYLOR-SWIFT-RED-TRACKS-facebook.jpg");
+
+}
+
 body {
-  font-family: "Times New Roman", Georgia, Serif;;
-  margin: 0 auto;
+  margin-left: 60px;
   width: 600px;
   background: pink;
+  color: #CD950C;
+  font-family:'Great Vibes', cursive;
+  background-image: <img> http://wac.450f.edgecastcdn.net/80450F/popcrush.com/files/2011/08/taylorswift2.jpg
 }
 
 div {
   background-size: cover;
   background-repeat:no-repeat;
   height: 300px;
-
+sss
   /*max-width: 100%;*/
+
 }
 
+.contain {
+  overflow-y: auto;
+  height: 635px;
+  padding: 10px;
+}
 img {
 
 }
 .first-course {
-  background-image: url("http://www.thecheesecakefactory.com/assets/images/Menu-Import/CCF_AhiCarpaccio.jpg");
+  background-image: url("http://loyalkng.com/wp-content/uploads/2009/09/Taylor+Swift+Fearless+Tour+2009+New+York+City.jpg");
   /*style="width: 300px; height: 200"*/
 }
 
 .second-course {
-  background-image: url("http://media-cache-ec0.pinimg.com/736x/e0/06/28/e006285b4445c815e2418a229e6eaeea.jpg");
+  background-image: url("http://blogs.tennessean.com/tunein/files/2011/06/Taylor-Swift4.gif");
 
 }
 
 .third-course {
-  background-image: url("http://www.thecheesecakefactory.com/assets/images/Menu-Import/CCF_MisoSalmon.jpg")
+  background-image: url("http://images.dailylife.com.au/2013/12/15/5011392/729_Taylor-Swift3-620x349.jpg")
 
 }
 
 .dessert {
-  background-image: url("http://www.thecheesecakefactory.com/assets/images/Menu-Import/CCF_ChocolateMousseCheesecake.jpg")
+  background-image: url("http://i.perezhilton.com/wp-content/uploads/2015/05/taylor-swift-1989-tour-tokyo-rock-we-are-never-ever-getting-back-together-photos-video__oPt.jpg")
+
+}
+
+p {
+  /*color: rgba(255,255,255,1);*/
+}
+}
+.first-album {
+  background-image: url("http://loyalkng.com/wp-content/uploads/2009/09/Taylor+Swift+Fearless+Tour+2009+New+York+City.jpg");
+  /*style="width: 300px; height: 200"*/
+}
+
+.second-album {
+  background-image: url("http://www.vettri.net/gallery/celeb/taylor_swift/2008-Fearless-Album-Photoshoot/TaylorSwift_2008-Fearless-Album-Photoshoot_Vettri.Net-17.jpg");
+
+}
+
+.third-album {
+  background-image: url("http://images.dailylife.com.au/2013/12/15/5011392/729_Taylor-Swift3-620x349.jpg")
+
+}
+
+.fourth-album {
+  background-image: url("http://i.perezhilton.com/wp-content/uploads/2015/05/taylor-swift-1989-tour-tokyo-rock-we-are-never-ever-getting-back-together-photos-video__oPt.jpg")
 
 }
 
@@ -44,7 +81,8 @@ nav ul{
   Text-align:center;
   List-style-type: none;
   Background-color:pink;
-  Padding: 20px
+  Padding: 20px;
+  display: inline-block;
 }
 nav ul li {
 display: inline;
